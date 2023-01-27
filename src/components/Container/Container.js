@@ -38,7 +38,7 @@ function Container() {
                     setErrStatus("")
                 }
             } catch (err) {
-                if (err.response == 401) setErrStatus(err.response.data.message)
+                if (err.response === 401) setErrStatus(err.response.data.message)
                 else setErrStatus("Something went wrong! Please Try Again!")
             }
         } else {
