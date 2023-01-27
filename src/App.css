@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.background {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  background-color: #0F0F0F;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Poppins';
+}
+
+.headerText {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
