@@ -57,11 +57,11 @@ function Container() {
                         fetchUrl.short && <>
                             <div className="short__url">
                                 <p>Full URL</p>
-                                <a href={fetchUrl.full} target="_blank">{fetchUrl.full}</a>
+                                <a href={fetchUrl.full}>{fetchUrl.full}</a>
                             </div>
                             <div className="short__url">
                                 <p>Short URL</p>
-                                <a href={fetchUrl.full} target="_blank">{'https://rich-red-zebra-hose.cyclic.app/' + fetchUrl.short}</a>
+                                <a href={fetchUrl.full}>{'https://rich-red-zebra-hose.cyclic.app/' + fetchUrl.short}</a>
                             </div>
                         </>
                     }
